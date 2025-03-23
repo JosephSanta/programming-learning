@@ -86,3 +86,46 @@
 #say hello to user
 #print(f"hello {first} {last}")
 
+####################################################################
+
+#int
+#int is a type of variable that can store an integer
+
+#float
+#float is a type of variable that can store a decimal number
+
+#we have many simbols in python to do math operations
+# +, -, *, /, %, **, //
+
+
+#round(numer[, ndigits])
+#round is a built-in function in python
+#round is used to round a number to a specified number of decimal places
+#round is used to round a number to the nearest integer
+#round is used to round a number to the nearest multiple of 10 -1000
+#ndigits is an optional parameter that specifies the number of decimal places to round to
+#numer is the number to round
+#[, ndigits] means that ndigits is an optional parameter
+
+
+
+
+
+# + is used to add two numbers
+# - is used to subtract two numbers
+# * is used to multiply two numbers
+# / is used to divide two numbers
+# % is used to get the remainder of a division
+# ** is used to raise a number to a power
+# // is used to get the integer division of two numbers
+
+#Interactive mode 
+#Interactive mode is a command line shell that allows direct interaction with the python interpreter
+#Interactive mode is useful for testing code
+#Interactive mode is useful for debugging code
+#Interactive mode is useful for learning python
+
+
+
+# I can use f strings to decide how many decimal places to round to
+
