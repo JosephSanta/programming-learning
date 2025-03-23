@@ -10,9 +10,6 @@
 #Pseudocode is a compact and informal high-level description of a computer programming algorithm that uses the structural conventions of programming languages, but omits detailed subroutines or language-specific syntax. It is meant for human reading rather than machine reading.
 
 
-
-
-
 #coma is used to concatenate strings
 #if i use coma, i dont need to use space in the string
 
@@ -40,10 +37,52 @@
 #sep is used to specify what should be printed between the values
 #by default, sep is set to ' ' which means a space
 
+#f string
+#f string is a way to format strings in python
+#f string is used to insert variables into strings
+#f string is used to concatenate strings with variables
+#f string is used to concatenate strings with expressions
+#f string is used to concatenate strings with functions
+#f string is used to concatenate strings with methods
+#f string is used to concatenate strings with other strings
+#f string can make code more readable
+#f string can make math operations easier
+
+
+
+#string methods
+#string methods are functions that belong to strings
+#string methods are called using the dot operator
+#string methods are used to manipulate strings
+
+
+#.strip()
+#remove whitespace from str
+#remove leading whitespace
+#remove trailing whitespace
+
+
+#.capatalize()
+#capitalize the first letter (it can be a space ) of a str
+
+#.title()
+#capitalize the first letter of each
+#word in a str
+
+#.split()
+#split a str into a list of substrings
+#split a str at a specified separator
+#split a str a specified number of times
 
 
 #Ask user for their name
-name = input("what's your name? ")
+#I can combine the input function with the strip method to remove leading and trailing whitespace
+
+#Code by Joseph Santamaria
+#name = input("what's your name? ").strip().capitalize().capitalize()
+
+#first , last = name.split(" ")
 
 #say hello to user
-print("hello,","", name , sep='PILIN')
+#print(f"hello {first} {last}")
+
